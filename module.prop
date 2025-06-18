@@ -1,7 +1,8 @@
 id=Raphael
 name=Majestic Tweaks
 version= v2
-versionCode=2024
+versionCode=2025
 author= @RAAJK20Pro
 description=Tweak Kernel Parameters for Better, Latency, Throughput and Efficiency.                                                                          GAMING , BATTERY & MULTITASKING                          Log in /Sdcard/MajesticTweaks & NetworkTweaks
 Device=Redmi K20 Pro Version.
+updateJson=https://raw.githubusercontent.com/RAAJK20Pro/MajesticTweaks/main/update.json
