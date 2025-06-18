@@ -1,26 +1,29 @@
 # Kernel Optimization
 A Simple Kernel Parameters Optimization for all devices
 # Features
-Kernel Logging & Stability Tweaks
+1:- Kernel Logging & Stability Tweaks
 
-Virtual Memory Optimization
+2:- Virtual Memory Optimization
 
-CPU & Governor Tweaks
+3:- CPU & Governor Tweaks
 
-Task Scheduler Optimizations
+4:- Task Scheduler Optimizations
 
-GPU Performance Tweaks
+5:- GPU Performance Tweaks
 
-Storage I/O Optimization
+6:- Storage I/O Optimization
 
-Memory Management
+7:- Memory Management
 
-Entropy Pool Tweaks
+8:- Entropy Pool Tweaks
 
-ART/Dex Optimization
+9:- ART/Dex Optimization
 
 # Key Benefits:
 Performance Focus
+
 Battery Efficiency
+
 System Stability
+
 App Optimization
