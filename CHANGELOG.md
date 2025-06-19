@@ -1,11 +1,11 @@
 ## **Build.prop Tweaks**  
 
-=====================================
-# 📜 Build.prop Changelog - System Performance Tweaks
+==================================
+## **📜 Build.prop Changelog - System Performance Tweaks**
 # 🔧 Tweaks by: (RAAJK20Pro)
 # Update: 19 June 2025 
 # 🔗 Telegram: https://t.me/RaphaelEsports
-=====================================
+==================================
 
 ### ✅ SYSTEM & PERFORMANCE
 - Enabled quick boot: `ro.config.hw_quickpoweron=true`
@@ -60,15 +60,15 @@
 - Disabled dithering to improve GPU throughput slightly
 - Maintained application preload for faster launches
 
-=====================================
+==================================
 *Kernel & System Optimization Script - Changelog*
 # 🔧 Optimizations by: (RAAJK20Pro)
 # 🔗 Telegram: https://t.me/Raphaelgamers
-=====================================
+==================================
 
-# ====================
+# =================
 ### Kernel & VM Tweaks
-# ====================
+# =================
 - Disabled kernel printk logging (silent logs)
 - Disabled panic reboot
 - Disabled Magic SysRq key combinations
@@ -82,9 +82,9 @@
 - VFS cache pressure reduced for better inode caching
 - Watermark scaling set for RAM stability
 
-# ===================
+# =================
 # ⚙️ CPU & Scheduler Tweaks
-# ===================
+# =================
 - Forced all CPU cores online (cpu0–cpu7)
 - Schedutil governor tuned (big/prime cores):
   - Increased hispeed load threshold to 80
@@ -94,48 +94,48 @@
 - Enabled child task preference
 - Improved scheduler latency, migration, and granularity
 
-# ===================
+# =================
 # 🎮 GPU Optimizations
-# ===================
+# =================
 - Disabled GPU throttling & thermal limits
 - Forced GPU clocks and rail on
 - Disabled Adrenoboost
 - Disabled touchboost (for custom tuning)
 
-# ==================
+# =================
 # 🧮 I/O Scheduler Tuning
-# ==================
+# =================
 - Applied 'deadline' I/O scheduler to all major block devices
 - Tuned fifo_batch, front_merges, write_expire, etc.
 - Disabled iostats & randomness generation
 - Increased read-ahead, decreased nr_requests
 - Optimized for SSDs by setting `rotational=0`
 
-# ==================
+# =================
 # 🔃 RAM & ZRAM Optimizations
-# ==================
+# =================
 - Increased RAM read-ahead to 2048 KB
 - Set ZRAM read-ahead to 64 KB
 
-# ==================
+# =================
 # 🔒 Entropy Tweaks
-# ==================
+# =================
 - Optimized urandom reseed rate
 - Adjusted read/write entropy thresholds for faster RNG performance
 
-# ==================
+# =================
 # 🧹 Memory Cleanup
-# ==================
+# =================
 - Dropped page cache, dentries, and inodes (drop_caches=3)
 
-# ==================
+# =================
 # 📦 Dex Optimization
-# ==================
+# =================
 - Used speed-profile compilation for system apps
 - Forced speed compilation on all user apps
 - Removed stale Dalvik cache for clean rebuild
 
-#=========================
+=========================
 ## **Summary of Improvements**  
 ✅ **30% better touch responsiveness**  
 ✅ **20% improved app launch speed**  
