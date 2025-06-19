@@ -1,5 +1,5 @@
 ==================================
-## **Android Kernel Parameter & Build.prop Changelog**
+## **Android Kernel Parameter & Build.prop**
 ## **🔧 Tweaks by: (RAAJK20Pro)**
 ## **Update: 19 June 2025** 
 ==================================
@@ -58,11 +58,11 @@
 - Maintained application preload for faster launches
 
 ==================================
-*Kernel & System Optimization Script - Changelog*
+*Kernel Tweaks*
 ==================================
 
 # =================
-### Kernel & VM Tweaks
+### Kernel Logging & VM Tweaks
 # =================
 - Disabled kernel printk logging (silent logs)
 - Disabled panic reboot
