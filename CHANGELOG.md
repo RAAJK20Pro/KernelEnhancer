@@ -1,8 +1,6 @@
-# Simple Kernel Enhance v2 - @RAAJK20Pro
+# MajesticTweaks 2.5 - @RAAJK20Pro
 
-# RAPHAEL
-
-## v2.0 – 2025-06-03
+## v2.5 – 2025-06-19
 
 # Changelog
 
