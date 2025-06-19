@@ -132,10 +132,10 @@
 
 =========================
 ## **Summary of Improvements**  
-✅ **30% better touch responsiveness**  
-✅ **20% improved app launch speed**  
-✅ **15% lower UI latency**  
-✅ **Enhanced gaming performance**  
-✅ **Better thermal management**
+✅ **Better touch responsiveness**  
+✅ **Improved app launch speed**  
+✅ **Lower UI latency**  
+✅ **Enhanced gaming performance** 
+✅ **Better Battery Backup**
 
 Tested on **Snapdragon 855**, **Android 11**, **Miui,AOSP**.
