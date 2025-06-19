@@ -78,7 +78,7 @@
 - Watermark scaling set for RAM stability
 
 # =================
-# ⚙️ CPU & Scheduler Tweaks
+### ⚙️ CPU & Scheduler Tweaks
 # =================
 - Forced all CPU cores online (cpu0–cpu7)
 - Schedutil governor tuned (big/prime cores):
@@ -90,7 +90,7 @@
 - Improved scheduler latency, migration, and granularity
 
 # =================
-# 🎮 GPU Optimizations
+### 🎮 GPU Optimizations
 # =================
 - Disabled GPU throttling & thermal limits
 - Forced GPU clocks and rail on
@@ -98,7 +98,7 @@
 - Disabled touchboost (for custom tuning)
 
 # =================
-# 🧮 I/O Scheduler Tuning
+### 🧮 I/O Scheduler Tuning
 # =================
 - Applied 'deadline' I/O scheduler to all major block devices
 - Tuned fifo_batch, front_merges, write_expire, etc.
@@ -107,24 +107,24 @@
 - Optimized for SSDs by setting `rotational=0`
 
 # =================
-# 🔃 RAM & ZRAM Optimizations
+### 🔃 RAM & ZRAM Optimizations
 # =================
 - Increased RAM read-ahead to 2048 KB
 - Set ZRAM read-ahead to 64 KB
 
 # =================
-# 🔒 Entropy Tweaks
+### 🔒 Entropy Tweaks
 # =================
 - Optimized urandom reseed rate
 - Adjusted read/write entropy thresholds for faster RNG performance
 
 # =================
-# 🧹 Memory Cleanup
+### 🧹 Memory Cleanup
 # =================
 - Dropped page cache, dentries, and inodes (drop_caches=3)
 
 # =================
-# 📦 Dex Optimization
+### 📦 Dex Optimization
 # =================
 - Used speed-profile compilation for system apps
 - Forced speed compilation on all user apps
