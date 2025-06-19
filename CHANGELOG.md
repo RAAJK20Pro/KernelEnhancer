@@ -1,10 +1,7 @@
-## **Build.prop Tweaks**  
-
 ==================================
-## **📜 Build.prop Changelog - System Performance Tweaks**
+## **Android Kernel Parameter & Build.prop Changelog**
 ## **🔧 Tweaks by: (RAAJK20Pro)**
 ## **Update: 19 June 2025** 
-## **🔗 Telegram: https://t.me/RaphaelEsports**
 ==================================
 
 ### ✅ SYSTEM & PERFORMANCE
@@ -62,8 +59,6 @@
 
 ==================================
 *Kernel & System Optimization Script - Changelog*
-# 🔧 Optimizations by: (RAAJK20Pro)
-# 🔗 Telegram: https://t.me/Raphaelgamers
 ==================================
 
 # =================
