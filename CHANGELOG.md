@@ -2,9 +2,9 @@
 
 ==================================
 ## **📜 Build.prop Changelog - System Performance Tweaks**
-# 🔧 Tweaks by: (RAAJK20Pro)
-# Update: 19 June 2025 
-# 🔗 Telegram: https://t.me/RaphaelEsports
+## **🔧 Tweaks by: (RAAJK20Pro)**
+## **Update: 19 June 2025** 
+## **🔗 Telegram: https://t.me/RaphaelEsports**
 ==================================
 
 ### ✅ SYSTEM & PERFORMANCE
