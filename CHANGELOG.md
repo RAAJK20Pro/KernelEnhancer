@@ -123,13 +123,6 @@
 # =================
 - Dropped page cache, dentries, and inodes (drop_caches=3)
 
-# =================
-### 📦 Dex Optimization
-# =================
-- Used speed-profile compilation for system apps
-- Forced speed compilation on all user apps
-- Removed stale Dalvik cache for clean rebuild
-
 =========================
 ## **Summary of Improvements**  
 ✅ **Better touch responsiveness**  
