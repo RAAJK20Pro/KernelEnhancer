@@ -17,8 +17,6 @@ A Simple Kernel Parameters Optimization for all devices
 
 8:- Entropy Pool Tweaks
 
-9:- ART/Dex Optimization
-
 # Key Benefits:
 Performance Focus
 
