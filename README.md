@@ -2,7 +2,7 @@
 A Simple Kernel Parameters Optimization for all devices
 # Features
 
-0 :- OTA Through Magisk/KSU
+0:- OTA Updates Through Magisk/KSU
 
 1:- Kernel Logging & Stability Tweaks
 
