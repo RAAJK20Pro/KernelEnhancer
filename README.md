@@ -26,5 +26,3 @@ Performance Focus
 Battery Efficiency
 
 System Stability
-
-App Optimization
