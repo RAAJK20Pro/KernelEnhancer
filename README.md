@@ -1,6 +1,9 @@
 # Kernel Optimization
 A Simple Kernel Parameters Optimization for all devices
 # Features
+
+0 :- OTA Through Magisk/KSU
+
 1:- Kernel Logging & Stability Tweaks
 
 2:- Virtual Memory Optimization
