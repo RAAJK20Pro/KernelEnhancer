@@ -94,8 +94,6 @@
 # =================
 - Disabled GPU throttling & thermal limits
 - Forced GPU clocks and rail on
-- Disabled Adrenoboost
-- Disabled touchboost (for custom tuning)
 
 # =================
 ### 🧮 I/O Scheduler Tuning
