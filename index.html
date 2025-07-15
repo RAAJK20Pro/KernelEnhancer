@@ -1,72 +1,119 @@
 <!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KernelEnhancer & GameEnhancer | @RAAJK20Pro</title>
-  <meta name="description" content="Magisk modules for Android performance optimization. Boost games, kernel, system and battery life with advanced tweaks.">
-  <meta name="author" content="@RAAJK20Pro">
-  <meta name="google-site-verification" content="LJRic-e8wziZbx8UYddW4_g8sqrZEfj2WIF47AkIdJM">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>/* [CSS STYLES UNCHANGED - OMITTED HERE FOR BREVITY] */</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAAJK20Pro Magisk Modules</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #f5f5f5;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      background: linear-gradient(to right, #00ffcc, #0066ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 2rem;
+    }
+    .module {
+      background: #111;
+      border-left: 4px solid #00ffcc;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+    }
+    .module h2 {
+      color: #00ffcc;
+      margin-bottom: 0.5rem;
+    }
+    .module p.description {
+      color: #ccc;
+    }
+    .features {
+      margin-top: 1rem;
+      padding-left: 1.2rem;
+    }
+    .features li {
+      margin-bottom: 0.5rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background: linear-gradient(135deg, #00ffcc, #0066ff);
+      color: #0a0a0a;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      color: #777;
+      border-top: 1px solid #222;
+      padding: 2rem 0;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <header>
-      <h1>KernelEnhancer & GameEnhancer</h1>
-      <div class="author">
-        <span>by</span>
-        <a href="https://t.me/RAAJK20Pro" target="_blank">@RAAJK20Pro</a>
-      </div>
-      <div class="social-links">
-        <a href="https://github.com/RAAJK20Pro" target="_blank"><i class="fab fa-github fa-lg"></i></a>
-        <a href="https://t.me/Raphaelgamers" target="_blank"><i class="fab fa-telegram fa-lg"></i></a>
-      </div>
-    </header><main>
-  <section class="card">
-    <h2>KernelEnhancer</h2>
-    <p>KernelEnhancer is a performance-optimized Magisk module designed for advanced Android users. It applies systemless tweaks to maximize your device's CPU, GPU, I/O, and RAM capabilities.</p>
-    <ul class="features">
-      <li><strong>CPU Optimization</strong>: Governor tuning & responsiveness</li>
-      <li><strong>GPU Boost</strong>: Disable throttling and increase frame stability</li>
-      <li><strong>Memory Tweaks</strong>: ZRAM, swap, cache pressure</li>
-      <li><strong>I/O Scheduler</strong>: Faster storage access and batching</li>
-      <li><strong>System Tuning</strong>: VM, entropy, kernel logging & scheduling</li>
-    </ul>
-    <a href="https://github.com/RAAJK20Pro/KernelEnhancer/releases" class="btn"><i class="fas fa-download"></i> KernelEnhancer</a>
-  </section>
+    <h1>@RAAJK20Pro Magisk Modules</h1><div class="module">
+  <h2>🔧 KernelEnhancer</h2>
+  <p class="description">Advanced kernel and scheduler tweaks for max performance and stability.</p>
+  <ul class="features">
+    <li>CPU governor tuning</li>
+    <li>GPU throttling disable</li>
+    <li>I/O scheduler & ZRAM</li>
+    <li>Entropy, VM & RAM optimization</li>
+  </ul>
+  <a class="btn" href="https://github.com/RAAJK20Pro/KernelEnhancer/releases" target="_blank">Download</a>
+</div>
 
-  <section class="card">
-    <h2>GameEnhancer</h2>
-    <p>GameEnhancer is an intelligent Magisk module that automatically detects when you launch a game and applies real-time performance boosts using CPU governor switching and thread priority tuning (renice + SCHED_FIFO).</p>
-    <ul class="features">
-      <li><strong>Game Detection</strong>: Monitors running processes every 2 seconds</li>
-      <li><strong>Real-time Prioritization</strong>: Applies renice & SCHED_FIFO to game PIDs</li>
-      <li><strong>Governor Boost</strong>: Automatically switches to <code>performance</code> mode during gameplay</li>
-      <li><strong>Auto-Revert</strong>: Restores defaults after game closes</li>
-      <li><strong>Logging</strong>: Saves logs to both <code>/data/local/tmp</code> and <code>/sdcard</code></li>
-    </ul>
-    <a href="https://github.com/RAAJK20Pro/GameEnhancer/releases" class="btn"><i class="fas fa-download"></i> GameEnhancer</a>
-  </section>
+<div class="module">
+  <h2>🎮 GameEnhancer</h2>
+  <p class="description">Real-time performance boost when gaming, with SCHED_FIFO + CPU optimizations.</p>
+  <ul class="features">
+    <li>Game auto-detection</li>
+    <li>CPU governor boost</li>
+    <li>renice + chrt real-time priority</li>
+    <li>Toast, vibration, log feedback</li>
+  </ul>
+  <a class="btn" href="https://github.com/RAAJK20Pro/GameEnhancer/releases" target="_blank">Download</a>
+</div>
 
-  <section>
-    <h2>Compatibility</h2>
-    <ul class="features">
-      <li>Android 9+ (Pie and above)</li>
-      <li>Rooted with Magisk 20.0+</li>
-      <li>ARM / ARM64 devices</li>
-    </ul>
-  </section>
+<div class="module">
+  <h2>🖐️ TouchEnhancer</h2>
+  <p class="description">Improve UI responsiveness and system fluidity with touch/UI tweaks.</p>
+  <ul class="features">
+    <li>SCHED_FIFO for SurfaceFlinger & system_server</li>
+    <li>Disable CFS autogroup</li>
+    <li>Boost gesture and animation responsiveness</li>
+  </ul>
+  <a class="btn" href="https://github.com/RAAJK20Pro/TouchEnhancer/releases" target="_blank">Download</a>
+</div>
 
-  <section class="card">
-    <h2>Support & Community</h2>
-    <p>Join our Telegram for updates, questions, and early builds:</p>
-    <a href="https://t.me/Raphaelgamers" class="btn"><i class="fab fa-telegram"></i> Telegram Channel</a>
-  </section>
-</main>
+<div class="module">
+  <h2>🌐 NetworkEnhancer</h2>
+  <p class="description">Optimize TCP/IP, DNS, and buffer settings for faster and more stable connections.</p>
+  <ul class="features">
+    <li>TCP congestion tuning</li>
+    <li>Wmem/rmem buffer boost</li>
+    <li>Low-latency gaming support</li>
+  </ul>
+  <a class="btn" href="https://github.com/RAAJK20Pro/NetworkEnhancer/releases" target="_blank">Download</a>
+</div>
 
 <footer>
-  <p>© 2025 KernelEnhancer & GameEnhancer | Developed by @RAAJK20Pro</p>
-  <p>Powered by GitHub Pages | Not affiliated with Google or Magisk</p>
+  <p>© 2025 Developed by <strong>@RAAJK20Pro</strong> | Powered by GitHub Pages</p>
 </footer>
 
   </div>
