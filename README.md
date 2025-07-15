@@ -1,4 +1,4 @@
-# KernelEnhancer by ### @RAAJK20Pro
+# KernelEnhancer by @RAAJK20Pro
 
 ![image alt](https://github.com/RAAJK20Pro/KernelEnhancer/blob/d98376855fd276eb2621cf657e582c98f56f6f67/KernelEnhancer.png)
 # Kernel Optimization
