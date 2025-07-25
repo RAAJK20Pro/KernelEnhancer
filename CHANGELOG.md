@@ -1,17 +1,22 @@
-Changelog v1.1 – KernelEnhancer
+KernelEnhancer V2.0 ( 2025/07/26)
 
-✅ Added dynamic CPU governor detection (schedutil, walt)
+Author :- @RAAJK20Pro
 
-⚡ Boosted CPU & GPU performance parameters
+⚡ Performance Boost Tweaks
+⧫︎Optimized VM settings for multitasking  
+⧫︎Lower latency scheduler tweaks  
+⧫︎GPU perf unlocks (Adreno/Mali)  
+⧫︎Improved I/O scheduler tuning 
+🎮 Gaming Focus & Battery 
+⧫︎Reduced jitter with autogroup disable  
+⧫︎RT task prioritization
+⧫︎Low Latency & High Throughput
+🧠 Memory Management: 
+⧫︎Dynamic Dalvik heap sizing (RAM-based)  
+⧫︎ZRAM/disk cache optimizations  
+⧫︎Periodic cache cleaning 
 
-🔁 Optimized I/O scheduler & storage latency
-
-🧠 Tuned virtual memory & ZRAM for smoother multitasking
-
-🎮 Disabled GPU thermal throttling for stable Gaming FPS
-
-📶 Removed Network Tweaks , Upcoming NetworkEnhancer Module
-
-📜 Logs stored in /sdcard/KernelEnhancer.log for easy tracking
-
-🔐 Added safe permission handling for system tweaks
+🔒 Stability
+⧫︎Emergency logging system  
+⧫︎File write retries for reliability  
+⧫︎Exclusive lock to prevent duplicates  
