@@ -1,4 +1,4 @@
-KernelEnhancer V2.0 ( 2025/08/10)
+KernelEnhancer V3.0 ( 2025/08/10)
 
 Author :- @RAAJK20Pro
 
