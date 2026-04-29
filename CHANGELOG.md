@@ -1,5 +1,13 @@
-KernelEnhancer V3.0 ( 2025/08/10)
+# Changelog
 
-Author :- @RAAJK20Pro
+## [v4.0] - 2026-04-30  
+**Author:** @RAAJK20Pro  
+**Channel:** @Schedyx  
 
-Gaming & Multitasking
+### 🚀 Improvements & Optimizations
+- Improved boot-time execution and stability  
+- Enhanced CPU, VM, and I/O tuning logic  
+- Optimized for better battery efficiency and lower latency  
+- Refined scheduler and input boost behavior  
+- Improved compatibility across kernels  
+- Cleaner logging and execution flow
