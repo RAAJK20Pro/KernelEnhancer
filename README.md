@@ -32,10 +32,10 @@
 
 ## Installation
 
-1. Download the latest `.zip` from Releases  
+1. Download the latest `.zip` from [Releases](https://github.com/RAAJK20Pro/KernelEnhancer/releases)  
 2. Open Magisk or KernelSU  
 3. Go to Modules → Install from Storage  
-4. Select the zip file and reboot  
+4. Select the zip file and reboot
 
 ---
 
